@@ -1,0 +1,73 @@
+/* колір основного тексту #757575 */
+/* кдругорядний колір тексту #212121 */
+/* background #E5E5E5 */
+/* білий #FFFFFF */
+/* акцент #2196F3 */
+/* колір туксту у футері rgba(255, 255, 255, 0.6) */
+/* колір секцій #F5F4FA */
+/* колір футера та hero  #2F303A */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --secondary-text-color: #FFFFFF; 
+}
+
+body {
+    background-color: #E5E5E5;
+    color: var(--primary-text-color);
+}
+
+.logo {
+    color: #2196F3;
+}
+
+.logo > span {
+    color: #212121;
+}
+
+.list {
+    list-style: none;
+}
+
+/* site nav */
+
+.site-nav a {
+    color: #212121;
+}
+
+.site-nav a:hover,
+.site-nav a:focus
+ {
+    color: var(--accent-color);
+}
+
+.contacts a {
+    color: var(--primary-text-color);
+}
+
+.contacts a:hover,
+.contacts a:focus {
+    color: var(--accent-color);
+}
+
+
+/* hero */
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+/* section */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* button */
+
+.button.primary {
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+}
